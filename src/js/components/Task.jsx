@@ -37,7 +37,7 @@ const Task = () => {
             <div className="container-md">
                 {/* Input para agregar tareas */}
                 <input
-                    className="rounded-pill mb-2"
+                   className="rounded-pill mb-2 w-100 text-center"
                     value={task}
                     onChange={(e) => setTask(e.target.value)}
                     onKeyDown={handleKeyDown} // Escuchar el evento onKeyDown
